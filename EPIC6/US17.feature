@@ -8,7 +8,7 @@ Feature: US17 - Acceder a Recursos de Apoyo
 		Examples:
 			| recurso            |
 			| foro_ayuda         |
-			| asesor_psicologico |
+			| asesor_psicológico |
 
 	Scenario: Filtrar recursos por nombre
 		Given que estoy en la sección de ayuda
