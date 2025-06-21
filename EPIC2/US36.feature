@@ -13,7 +13,7 @@ Feature: US36 - Seguridad de los Datos Personales
 	Scenario: Protección de datos en reposo
 		Given que mis datos "<tipo_dato>" están almacenados en el sistema
 		When realizo un acceso no autorizado a "<tipo_dato>"
-		Then el sistema debe encriptar los datos "<tipo_dato>" para que no sean legibles sin las credenciales adecuadas
+		Then el sistema debe cifrar los datos "<tipo_dato>" para que no sean legibles sin las credenciales adecuadas
 		Examples:
 			| tipo_dato |
 			| email     |
