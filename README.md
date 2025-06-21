@@ -1,4 +1,4 @@
-# NoHateApp-AcceptanceTests
+# NoHateApp-AcceptanceTests v1.0.0
 
 ## EP1 Gestión de Cuenta y Acceso
 
