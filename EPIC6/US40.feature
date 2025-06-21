@@ -13,6 +13,6 @@ Feature: US40 - Registro de Estado de Ánimo diario
 
 	Examples:
 		| emoción  | comentario         |
-		| feliz    | "Buen día"         |
-		| triste   | "Me siento solo"   |
-		| enojado  | ""                 |
+		| feliz    | Buen día           |
+		| triste   | Me siento solo     |
+		| enojado  |                    |
