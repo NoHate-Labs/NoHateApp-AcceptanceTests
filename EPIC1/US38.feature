@@ -15,4 +15,4 @@ Feature: US38 - Disponibilidad del Sistema
 		Then el sistema la reporta y se restablece en un tiempo máximo de 30 minutos
 		Examples:
 			| tipo_evento |
-			| caida       |
+			| caída       |
