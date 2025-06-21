@@ -12,7 +12,8 @@ Scenario: Proceso de vinculación exitoso
 
 Scenario: Recepción de alertas tras la vinculación
 	Given el adulto con id "<adulto_id>" ha vinculado correctamente a un adolescente con id "<adolescente_id>"
-	When el adolescente "<adolescente_id>" registra una "<tipo_alerta>" o denuncia un mensaje
+	When el adolescente "<adolescente_id>" registra una "<tipo_alerta>"
+	And el adolescente "<adolescente_id>" denuncia un mensaje
 	Then el adulto "<adulto_id>" debe recibir una notificación o alerta dentro de la aplicación
 
 	Examples:
