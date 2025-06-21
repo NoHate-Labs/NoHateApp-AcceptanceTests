@@ -12,8 +12,7 @@
 - **US18**: Configurar Preferencias de Idioma  
 - **US19**: Acceder a Historial de Actividad  
 - **US23**: Personalizar Apariencia de la Aplicación  
-- **US35**: Rapidez de Respuesta de la Aplicación  
-- **US36**: Seguridad de los Datos Personales  
+- **US35**: Rapidez de Respuesta de la Aplicación
 - **US37**: Optimización para Dispositivos Móviles  
 - **US38**: Disponibilidad del Sistema  
 - **US39**: Consumo Eficiente de Batería  
