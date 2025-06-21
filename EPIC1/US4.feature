@@ -8,7 +8,7 @@ Feature: US4 - Edición de Perfil
 		Examples:
 			| campo    | valor_nuevo |
 			| nombre   | Gilbert     |
-			| telefono | 123456789   |
+			| teléfono | 123456789   |
 
 	Scenario: Validación de campos
 		Given que ingreso "<valor_invalido>" en el campo "<campo>"
