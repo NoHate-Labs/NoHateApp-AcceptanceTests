@@ -4,7 +4,7 @@ Feature: US13 - Ver Historial de Denuncias
 	Scenario: Visualización de historial
 		Given que accedo a mi perfil como "<usuario>"
 		When selecciono "Historial de Denuncias"
-		Then el sistema debe mostrar una lista de todas las denuncias realizadas ("<denuncias_realizadas>") con su estado actual
+		Then el sistema debe mostrar una lista de todas las denuncias realizadas "<denuncias_realizadas>" con su estado actual
 		Examples:
 			| usuario            | denuncias_realizadas |
 			| adulto_responsable | 3                    |
